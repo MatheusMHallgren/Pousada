@@ -1,7 +1,7 @@
 @font-face {
-    font-family: BebasNeue-Regular;
+    font-family: BebasNueu;
     src: url(css/fonts/BebasNeue-Regular.ttf);
 }
-h1{
-    font-family: BebasNeue-Regular;
+.paineltitulo{
+    font-family: BebasNueu;
 }
