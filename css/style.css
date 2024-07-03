@@ -5,3 +5,33 @@
 .paineltitulo{
     font-family: BebasNueu;
 }
+body{
+    background-image: url("../img/img5.jpg");
+    background-size: cover;
+    /* background-position: 0px -900px; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section{
+    background-color:  white;
+    padding: 50px 35px 50px 35px;
+    font-family: BebasNueu;
+}
+/* #text{
+    padding: 15px;
+    text-align: center;
+}
+#img_home{
+    padding: 15px;
+    margin-left: 10px;
+    text-align: center;
+} */
+#home img{
+    width: 90%;
+}
+.acomodacao{
+    padding: 100px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
