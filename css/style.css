@@ -34,8 +34,10 @@ section{
 #home img{
     width: 90%;
 }
-.acomodacao{
-    width: 100.80%;;
+.acomodacao, .reservas, .sobre{
+    width: 100.80%;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding: 10px !important;
     text-align: center;
     color: white;
@@ -51,38 +53,69 @@ section{
     text-align: center;
 }
 #text h2{
-font-size: 35pt;
-margin-top: 30px;
+    font-size: 35pt;
+    margin-top: 30px;
 }
 #text h5{
     font-size: 35pt;
-    }
-#text p{
-font-size: 17pt;
 }
-.reservas{
+#text p{
+    font-size: 17pt;
+}
+#sobre img{
+    border-radius: 15px;
+    width: 90%;
+    margin-left: 10px;
+}
+iframe{
+    width: 730px;
+    height: 589px;
+    border-radius: 15px;
+}
+#sobre h3{
+    font-size: 25pt;
+    text-align: center;
+    margin-top: 30px;
+}
+.card-header{
+    background-color: black;
+    color: white;
+}
+@media (min-width: 0px) and (max-width: 600px) { 
+    iframe{
+        /* width: 300px;
+        height: 300px; */
+        width: 90%;
+        border-radius: 15px;
+        margin-left: 10px;
+    }
+    #sobre h3{
+        font-size: 25pt;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .acomodacao{
     width: 100.80%;;
     padding: 10px !important;
     text-align: center;
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
-}
-/* @media (min-width: 0px) and (max-width: 600px) { 
-    .acomodacao{
-        width: 100px;
-        padding: 0px !important;
-        text-align: center;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.8);
     }
     .reservas{
-        width: 100px;
-        padding: 0px !important;
-        text-align: center;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.8);
+    width: 100.80%;;
+    padding: 10px !important;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
     }
     .btn.btn-primary{
         width: 200px !important;
     }
- } */
+    #home h2, #home h5, #home p{
+        text-align: center;
+    }
+    #home img{
+        border-radius: 15px;
+        margin-left: 18px;
+    }
+ }
