@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 @font-face {
     font-family: BebasNueu;
     src: url(css/fonts/BebasNeue-Regular.ttf);
@@ -30,7 +35,8 @@ section{
     width: 90%;
 }
 .acomodacao{
-    padding: 100px;
+    width: 100.80%;;
+    padding: 10px !important;
     text-align: center;
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
@@ -54,23 +60,24 @@ margin-top: 30px;
 #text p{
 font-size: 17pt;
 }
-.reservas{
-    padding: 100px;
+.row.reservas{
+    width: 100.80%;;
+    padding: 100px !important;
     text-align: center;
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
 }
-@media (min-width: 0px) and (max-width: 600px) { 
+/* @media (min-width: 0px) and (max-width: 600px) { 
     .acomodacao{
-        width: 529px;
-        padding: 100px !important;
+        width: 100px;
+        padding: 0px !important;
         text-align: center;
         color: white;
         background-color: rgba(0, 0, 0, 0.8);
     }
     .reservas{
-        width: 529px;
-        padding: 100px !important;
+        width: 100px;
+        padding: 0px !important;
         text-align: center;
         color: white;
         background-color: rgba(0, 0, 0, 0.8);
@@ -78,4 +85,4 @@ font-size: 17pt;
     .btn.btn-primary{
         width: 200px !important;
     }
- }
+ } */
