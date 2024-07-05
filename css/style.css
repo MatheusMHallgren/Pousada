@@ -60,7 +60,7 @@ font-size: 17pt;
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
 }
-@media (min-width: 0px) and (max-width: 575px) { 
+@media (min-width: 0px) and (max-width: 600px) { 
     .acomodacao{
         width: 529px;
         padding: 100px !important;
