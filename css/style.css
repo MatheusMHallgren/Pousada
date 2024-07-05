@@ -35,3 +35,47 @@ section{
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
 }
+.quartos{
+    font-size: 25pt;
+    text-align: center;
+}
+.gastronomia{
+    margin-top: 40px;
+    font-size: 25pt;
+    text-align: center;
+}
+#text h2{
+font-size: 35pt;
+margin-top: 30px;
+}
+#text h5{
+    font-size: 35pt;
+    }
+#text p{
+font-size: 17pt;
+}
+.reservas{
+    padding: 100px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+@media (min-width: 0px) and (max-width: 575px) { 
+    .acomodacao{
+        width: 529px;
+        padding: 100px !important;
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .reservas{
+        width: 529px;
+        padding: 100px !important;
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .btn.btn-primary{
+        width: 200px !important;
+    }
+ }
