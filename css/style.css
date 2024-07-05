@@ -60,9 +60,9 @@ margin-top: 30px;
 #text p{
 font-size: 17pt;
 }
-.row.reservas{
+.reservas{
     width: 100.80%;;
-    padding: 100px !important;
+    padding: 10px !important;
     text-align: center;
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
